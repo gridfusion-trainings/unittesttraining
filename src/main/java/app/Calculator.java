@@ -23,15 +23,15 @@ public class Calculator {
         }
 
 
-    public String calculateName (String first, String last) throws InputIsEmptyException
-        {
-            if(first== "" || last=="") {
-                throw new InputIsEmptyException();
+        public String calculateName (String first, String last) throws InputIsEmptyException
+            {
+                if(first== "" || last=="") {
+                    throw new InputIsEmptyException();
+                }
+                else {
+                    return first + " " + last;
+                }
             }
-            else {
-                return first + " " + last;
-            }
-        }
 
 
         public int calculateNumberOfChars(String fullName) {

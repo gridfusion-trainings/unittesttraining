@@ -25,7 +25,7 @@ public class UnitCalculatorTest {
 		Calculator calc = new Calculator();
 		calc.setStripper(mockedStripper);
 		
-		Assert.assertEquals(calc.calculateNumberOfChars("Michael Palotas"), 14);		
+		Assert.assertEquals(calc.calculateNumberOfChars("Michael Palotas"), 14);
 		
 	}
 	
