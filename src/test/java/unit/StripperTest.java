@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class StripperTest {
 		
-	@Test(groups="unit")
+	@Test
 	public void shouldRemoveWhitespacesInName() {
 		
 		InputProcessor stripper = new InputProcessor();
@@ -16,7 +16,7 @@ public class StripperTest {
 	}
 
 	
-	@Test(groups="unit")
+	@Test
 	public void shouldRemoveMultipleWhitespacesInName() {
 		
 		InputProcessor stripper = new InputProcessor();
