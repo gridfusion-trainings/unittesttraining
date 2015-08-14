@@ -14,6 +14,11 @@ public class Calculator {
         }
 
 
+        public void aMethodThatDoesNothing() {
+            System.out.println("doing nothing");
+
+        }
+
         public void setStripper(InputProcessor stripper) {
             this.processor = stripper;
         }
