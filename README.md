@@ -1,7 +1,14 @@
 ### Unit Test Training
 
 ## Build with gradle
-gradle build 
-gradle test 
+<Gradle is currently in Desktop/tmp directory>
+gradle build<br>
+gradle test<br>
+gradle cobertura<br>
 
-## Gradle is currently in Desktop/tmp directory
+
+## Build with Maven
+mvn cobertura:cobertura<br>
+-> code coverage report is under $PROJECT/target/site/cobertura/index.html
+
+
