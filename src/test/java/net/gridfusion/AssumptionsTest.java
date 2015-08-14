@@ -13,7 +13,7 @@ public class AssumptionsTest {
 
     @Test
     public void assumptions(){
-        isSonarRunning = true;
+        isSonarRunning = false;
         Assume.assumeFalse(isSonarRunning);
         Assert.assertTrue(true);
 
