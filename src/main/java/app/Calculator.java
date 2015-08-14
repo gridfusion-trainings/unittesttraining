@@ -14,17 +14,16 @@ public class Calculator {
         }
 
 
-        public void aMethodThatDoesNothing() {
-            System.out.println("doing nothing");
-
-        }
-
         public void setStripper(InputProcessor stripper) {
             this.processor = stripper;
         }
 
+        public void aMethodThatDoesNothing() {
+            System.out.println("doing nothing");
+        }
 
-        public String calculateName (String first, String last) throws InputIsEmptyException
+
+    public String calculateName (String first, String last) throws InputIsEmptyException
         {
             if(first== "" || last=="") {
                 throw new InputIsEmptyException();
