@@ -1,9 +1,9 @@
 package unit;
 
+import app.InputProcessor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import application.InputProcessor;
 
 
 public class StripperTest {
