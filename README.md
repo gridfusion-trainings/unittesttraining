@@ -30,7 +30,7 @@ Run the following: rvm use jruby
 cd /Desktop/tmp/sonarqube-4.5.5/macosx-universal-64/bin
 ./sonar.sh start
 
-First run: mvn cobertura:cobertura -Dcobertura.report.format=xml
+First run: mvn cobertura:cobertura -Dcobertura.report.format=xml (--> sonar requires coverage.xml file to display unit tests)
 Run Sonar job:  ~/Desktop/tmp/sonar-runner-2.3/bin/sonar-runner
 
 

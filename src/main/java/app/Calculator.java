@@ -14,8 +14,8 @@ public class Calculator {
         }
 
 
-        public void setStripper(InputProcessor stripper) {
-            this.processor = stripper;
+        public void setInputProcessor(InputProcessor inputProcessor) {
+            this.processor = inputProcessor;
         }
 
         public void aMethodThatDoesNothing() {
