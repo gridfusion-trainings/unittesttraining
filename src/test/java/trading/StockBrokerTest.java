@@ -52,6 +52,7 @@ public class StockBrokerTest {
 		when(marketWatcher.getQuote(anyString())).thenReturn(uvsityCorp);
 
         marketWatcher.getQuote("UV");
+
         verify(marketWatcher).getQuote("UV"); //verify that the mock method was called with the correct parameters
 
 		assertNotNull(marketWatcher.getQuote("UV"));
